@@ -1,9 +1,7 @@
 body {
     width: 100%;
-    height: 100vh;
-    background: radial-gradient(ellipse at bottom, #170f27 0%, #392467 100%) !important;
-    position: relative;
-    overflow: hidden;
+    height: 910px;
+    background: radial-gradient(ellipse at bottom, #482ba7 0%, #33005b 100%) !important;
 }
 a {
     text-decoration: none;
@@ -17,7 +15,7 @@ p {
 .social {
     padding-bottom: 3%;
 }
-.nav.bg {
+nav.bg {
     background-color: #2a1e53;
 }
 
@@ -62,12 +60,12 @@ a.custom-btnst:active {
 }
 
 .name {
-    color: #876dbe;
+    color: #8f6dbe;
     font-family: 'Kanit', sans-serif;
-    font-size: 70px;
+    font-size: 22vw;
     position: relative;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .main {
@@ -75,7 +73,7 @@ a.custom-btnst:active {
 }
 
 .name::before {
-    content: 'EnyelVD';
+    content: 'Enyel';
     position: absolute;
     mix-blend-mode: difference;
     color: #3f3a49;
@@ -85,10 +83,185 @@ a.custom-btnst:active {
 .neon-name {
     filter: brightness(200%);
 }
+.pronouns {
+    color: #5a5a5a;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10%;
+}
+.about-me {
+    border-radius: 20px;
+    padding-bottom: 2%;
+}
+
+.main {
+    text-align: center;
+}
+
+.col-about-me {
+    background: linear-gradient(135deg, rgba(129, 1, 189, 0), rgba(113, 0, 148, 0.74));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(119, 3, 197, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(106, 14, 148, 0.37);
+}
+
+.outline {
+    background-color: #45008f !important;
+    box-shadow: 0 0 15px 10px rgb(170, 79, 255);
+    filter: brightness(110%);
+}
+
+.card-title {
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.card-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-align: left;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    text-align: center;
+}
 
 #icon {
     border-radius: 50%;
-    width: 50%;
-    transform: scale(0.6);
-    margin-top: 0%;
+    width: 100%;
+    transform: scale(0.7);
+    margin-top: -7%;
+}
+/*bubble*/
+
+.burbuja{
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+
+    position: fixed;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+    
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }

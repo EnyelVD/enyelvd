@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #560098, #505BDA) !important;
+    position: relative;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(119, 119, 119);
+}
+.social {
+    padding-bottom: 3%;
+}
+.nav.bg {
+    background-color: #2a1e53;
+}
+
+.social-media {
+    margin-right: 1%;
+}
+
+button.custom-btnds,
+button.custom-btnds:hover,
+button.custom-btnds:active {
+    background-color: #7289da;
+    color: white;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+a.custom-btnig,
+a.custom-btnig:hover {
+    background-color: #E1306C;
+    color: white;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+a.custom-btnth,
+a.custom-btnth:hover {
+    background-color: #6441A5;
+    color: white;
+    border: #6441A5;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+a.custom-btnst,
+a.custom-btnst:hover,
+a.custom-btnst:active {
+    background-color: #2a475e;
+    border: #2a475e 20px;
+    color: white;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.name {
+    color: #876dbe;
+    font-family: 'Kanit', sans-serif;
+    font-size: 70px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
+.main {
+    height: 20%;
+}
+
+.name::before {
+    content: 'EnyelVD';
+    position: absolute;
+    mix-blend-mode: difference;
+    color: #3f3a49;
+    filter: blur(5px);
+}
+
+.neon-name {
+    filter: brightness(200%);
+}
+
+#icon {
+    border-radius: 50%;
+    width: 50%;
+    transform: scale(0.6);
+    margin-top: 0%;
+}

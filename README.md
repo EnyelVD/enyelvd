@@ -7,7 +7,7 @@
 ## 🥞About Me :
 
 C++ Developer by my own <br>
-I am currently studying college in Sofware Engineering <br>
+I am currently studying college in Software Engineering <br>
 I have been learning since 2018, everything that has to do with computers.<br>
 Freelancer Ilustrator, Chechk my ig!
 

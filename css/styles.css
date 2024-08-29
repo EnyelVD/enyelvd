@@ -1,10 +1,8 @@
 body {
-    width: 100%;
-    height: 910px;
     background: radial-gradient(ellipse at bottom, #482ba7 0%, #33005b 100%) !important;
 }
 /*space */
-
+/*
 .space-1{
     --size: 4px;
     --space-layer:
@@ -101,6 +99,7 @@ body {
     left: 1000px;
     opacity: 75%;
 }
+*/
 /*space*/
 a {
     text-decoration: none;
@@ -236,9 +235,22 @@ a.custom-btnst:active {
 .main {
     text-align: center;
 }
-.cat {
-    transform: scale(0.09);
-    margin:-15%;
+
+#down
+{
+    color: #e1306b00;
+}
+
+.cookie{
+    text-align: center;
+    scale: 200px;
+    font-size: 10vh;
+}
+.miku {
+    color: white;
+    text-align: center;
+    scale: 200px;
+    font-size: x-small;
 }
 #footer {
     color: white;

@@ -1,6 +1,17 @@
 body {
     background: radial-gradient(ellipse at bottom, #482ba7 0%, #33005b 100%) !important;
+    cursor: url("../img/cursor.png"),
+    auto;
 }
+/*.cursor {
+    width: 5px;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transform: scale(0.5);
+}
+*/
 /*space */
 /*
 .space-1{
@@ -116,10 +127,12 @@ p {
 .nav.bg {
     margin-left: 50%;
     background-color: #2a1e53;
+    
 }
 
 .social-media {
     margin-right: 1%;
+    
 }
 
 button.custom-btnds,
@@ -129,6 +142,8 @@ button.custom-btnds:active {
     color: white;
     white-space: normal;
     word-wrap: break-word;
+    cursor: url(../img/select.png),
+    pointer
 }
 
 a.custom-btnig,
@@ -137,6 +152,8 @@ a.custom-btnig:hover {
     color: white;
     white-space: normal;
     word-wrap: break-word;
+    cursor: url(../img/select.png),
+    pointer;
 }
 
 a.custom-btnth,
@@ -146,6 +163,8 @@ a.custom-btnth:hover {
     border: #6441A5;
     white-space: normal;
     word-wrap: break-word;
+    cursor: url(../img/select.png),
+    pointer;
 }
 
 a.custom-btnst,
@@ -156,6 +175,14 @@ a.custom-btnst:active {
     color: white;
     white-space: normal;
     word-wrap: break-word;
+    cursor: url(../img/select.png),
+    pointer;
+}
+
+a.btn-dark{
+    cursor: url(../img/select.png),
+    pointer
+
 }
 
 .name {
@@ -446,3 +473,4 @@ a.custom-btnst:active {
     696px 1654px #fff, 1144px 60px #fff;
 }
 /*--LONG PART OF THIS CODE WAS FROM https://github.com/AikePetunia VISIT HER--*/
+

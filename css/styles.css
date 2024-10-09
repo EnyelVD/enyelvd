@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
 body {
-    background: radial-gradient(ellipse at bottom, #482ba7 0%, #33005b 100%) !important;
-    cursor: url("../img/cursor.png"),
-    auto;
+    background: radial-gradient(ellipse at top, #3a0060 0%, #350f4b, #060612 100%) !important;
+
 }
 /*.cursor {
     width: 5px;
@@ -112,17 +118,16 @@ body {
 }
 */
 /*space*/
-a {
-    text-decoration: none;
-}
+
 p {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: normal;
     color: rgb(119, 119, 119);
 }
+
 .social {
-    padding-bottom: 3%;
+    padding-bottom: 0%;
 }
 .nav.bg {
     margin-left: 50%;
@@ -133,56 +138,6 @@ p {
 .social-media {
     margin-right: 1%;
     
-}
-
-button.custom-btnds,
-button.custom-btnds:hover,
-button.custom-btnds:active {
-    background-color: #7289da;
-    color: white;
-    white-space: normal;
-    word-wrap: break-word;
-    cursor: url(../img/select.png),
-    pointer
-}
-
-a.custom-btnig,
-a.custom-btnig:hover {
-    background-color: #E1306C;
-    color: white;
-    white-space: normal;
-    word-wrap: break-word;
-    cursor: url(../img/select.png),
-    pointer;
-}
-
-a.custom-btnth,
-a.custom-btnth:hover {
-    background-color: #6441A5;
-    color: white;
-    border: #6441A5;
-    white-space: normal;
-    word-wrap: break-word;
-    cursor: url(../img/select.png),
-    pointer;
-}
-
-a.custom-btnst,
-a.custom-btnst:hover,
-a.custom-btnst:active {
-    background-color: #2a475e;
-    border: #2a475e 20px;
-    color: white;
-    white-space: normal;
-    word-wrap: break-word;
-    cursor: url(../img/select.png),
-    pointer;
-}
-
-a.btn-dark{
-    cursor: url(../img/select.png),
-    pointer
-
 }
 
 .name {
@@ -224,36 +179,6 @@ a.btn-dark{
     text-align: center;
 }
 
-.col-about-me {
-    background: linear-gradient(135deg, rgba(129, 1, 189, 0), rgba(113, 0, 148, 0.74));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(119, 3, 197, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(106, 14, 148, 0.37);
-}
-
-.outline {
-    background-color: #45008f !important;
-    box-shadow: 0 0 15px 10px rgb(170, 79, 255);
-    filter: brightness(110%);
-}
-
-.card-title {
-    font-family: 'Kanit', sans-serif;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: black;
-}
-
-.card-text {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: white;
-    text-align: left;
-}
-
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -290,7 +215,228 @@ a.btn-dark{
     transform: scale(0.7);
     margin-top: -7%;
 }
-#stars {
+
+/* HEADER */
+
+nav {
+	margin: 27px auto 0;
+
+	position: relative;
+	width: 250px;
+	height: 50px;
+	background-color: #4f115d;
+    box-shadow: #000000;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 50px;
+}
+a:nth-child(2) {
+	width: 50px;
+}
+a:nth-child(3) {
+	width: 50px;
+}
+a:nth-child(4) {
+	width: 50px;
+}
+a:nth-child(5) {
+	width: 50px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 50px;
+	left: 0;
+	background-color: #a5173f;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 50px;
+	left: 50px;
+	background-color: #9146FF;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 50px;
+	left: 100px;
+	background-color:#2a475e;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 50px;
+	left: 150px;
+	background-color: #212529;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 50px;
+	left: 200px;
+	background-color: #6666FF;
+}
+
+/* HEADER */
+
+/* cards images */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: turquoise;
+  /* display: grid; */
+  place-items: center;
+  /* height: 100vh; */
+  background: #7f7fd5;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.card-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem #49136e;
+  border-radius: 1em;
+  background: #ECE9E6;
+background: linear-gradient(to right, #42075b, #42075b);
+
+/*
+.col-about-me {
+    background: linear-gradient(135deg, #8101bd00, #710094bd);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #7703c52e;
+    box-shadow: 0 8px 32px 0 #6a0e945e;
+}
+
+.outline {
+    background-color: #45008f !important;
+    box-shadow: 0 0 15px 10px #aa4fff;
+    filter: brightness(110%);
+}
+
+/* .card-title {
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+*/
+}
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #D1913C;
+background: linear-gradient(to bottom, #FFD194, #D1913C);
+  color: #fafafa;
+}
+
+.tag-red {
+  background: #cb2d3e;
+background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #5245e2;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: .5rem;
+}
+
+.user__image {
+  border-radius: 50%;
+}
+
+.user__info > small {
+  color: #ffffff;
+}
+
+/* end cards */
+.stars {
     width: 1px;
     height: 1px;
     background: transparent;
@@ -472,5 +618,4 @@ a.btn-dark{
     659px 1860px #fff, 388px 1412px #fff, 1212px 458px #fff, 755px 1468px #fff,
     696px 1654px #fff, 1144px 60px #fff;
 }
-/*--LONG PART OF THIS CODE WAS FROM https://github.com/AikePetunia VISIT HER--*/
-
+/*--THE STARS OF THIS CODE WAS FROM https://github.com/AikePetunia VISIT HER--*/

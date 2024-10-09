@@ -132,13 +132,23 @@ p {
     
 }
 
+a.custom-btnig,
+a.custom-btnig:hover {
+    color: white;
+    margin-top: 3%;
+}
+
+
 .name {
+    margin-top: 10%;
     color: #8f6dbe;
-    font-family: 'Kanit', sans-serif;
-    font-size: 22vw;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 15vw;
     position: relative;
     width: 100%;
     text-align: center;
+    /*font-variant: small-caps*/
 }
 
 .main {
@@ -156,12 +166,21 @@ p {
 .neon-name {
     filter: brightness(200%);
 }
+
 .lema {
     color: #ffffff;
     text-align: center;
     width: 100%;
     padding-bottom: 10%;
 }
+
+.lema p {
+    font-family: "PT Serif", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.15vw;
+}
+
 .about-me {
     border-radius: 20px;
     padding-bottom: 2%;
@@ -176,12 +195,7 @@ p {
     height: auto;
 }
 
-.main {
-    text-align: center;
-}
-
-#down
-{
+#down {
     color: #e1306b00;
 }
 
@@ -190,12 +204,14 @@ p {
     scale: 200px;
     font-size: 10vh;
 }
+
 .miku {
     color: white;
     text-align: center;
     scale: 200px;
     font-size: x-small;
 }
+
 #footer {
     color: white;
     text-align: center;
@@ -207,7 +223,6 @@ p {
     transform: scale(0.7);
     margin-top: -7%;
 }
-
 /* HEADER */
 
 nav {

@@ -128,11 +128,11 @@ p {
 }
 
 .name {
-    margin-top: 10%;
+    margin-top: 9%;
     color: #8f6dbe;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
-    font-size: 15vw;
+    font-size: 15.7vw;
     position: relative;
     width: 100%;
     text-align: center;
@@ -166,7 +166,7 @@ p {
     font-family: "PT Serif", serif;
     font-weight: 800;
     font-style: italic;
-    font-size: 1.15vw;
+    font-size: auto;
 }
 
 .about-me {

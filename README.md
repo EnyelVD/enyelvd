@@ -15,7 +15,7 @@ Freelancer Ilustrator, Check my ig!
 
 <br>
 
-[![GitHub.io](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://enyelvd.github.io/enyelvd)
+[![GitHub.io](https://img.shields.io/badge/AboutMe-%23121011.svg?logo=github&logoColor=white)](https://enyelvd.github.io/enyelvd)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/enyelvd)
 [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/enyelvd)
 

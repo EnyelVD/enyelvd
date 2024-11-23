@@ -194,10 +194,17 @@ p {
     color: #e1306b00;
 }
 
+.paww {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
 .cookie{
     text-align: center;
     scale: 200px;
-    font-size: 10vh;
+    font-size: 5vh;
 }
 
 .miku {
